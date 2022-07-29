@@ -1,0 +1,50 @@
+html {
+   scroll-behavior: smooth;
+}
+
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background: transparent;
+}
+
+.container {
+    display: flex;
+    flex: flex-wrap;
+    justify-content: space-around;
+    height: 100%;
+    padding: 1rem;
+}
+
+.login-btn, .logout-btn {
+    padding: 7px 16px;
+    border-radius: 24px 4px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #118c4f;
+    
+    margin-bottom: 80px;
+ }
+
+ .login-btn {
+    /* margin-bottom: 170px;
+    margin-right: 200px;
+    margin-left: 30px; */
+ }
+
+ .logout-btn {
+    /* margin-bottom: 170px;
+    margin-left: 300px;
+    margin-right: 30px; */
+ }
+ 
+ .login-btn:hover {
+    box-shadow: rgb(0 0 0 / 15%) 0px 8px 24px;
+ }
+
+ .logout-btn:hover {
+    box-shadow: rgb(0 0 0 / 15%) 0px 8px 24px;
+ }
