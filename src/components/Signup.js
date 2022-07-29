@@ -4,7 +4,7 @@ import Crypto from '../assets/trade.png'
 
 const Signup = () => {
   return (
-    <div className='signup'>
+    <div id='earn' className='signup'>
       <div className='container'>
 
         <div className='left'>
