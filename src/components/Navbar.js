@@ -16,23 +16,30 @@ const Navbar = () => {
                     <a href='/'>Home</a>
                 </li>
                 <li>
-                    <a href='/'>Features</a>
+                    <a href='/#features'>Features</a>
                 </li>
                 <li>
-                    <a href='/'>Earn</a>
-                </li>
-                <li>
-                    <a href='/'>Contact</a>
+                    <a href='/#earn'>Earn</a>
                 </li>
             </ul>
             <div className='btn-group'>
-                <button className='btn'>Connect Wallet</button>
+                {/* <button className='btn'>Connect Wallet</button> */}
+                
+
+                {/* <button className='btn' id="btn-login">Moralis Metamask Login</button>
+                <button id="btn-logout">Logout</button> */}
             </div>
+
+            <script type="text/javascript" src="./main.js"></script>
             <div className='hamburger' onClick={handleClick}>
                 {click ? (<FaTimes size={20} style={{color: '333'}}/>) : (<FaBars size={20} style={{color: '333'}}/>)}
             </div>
         </div>
     </div>
+  )
+}
+
+export default Navbar
   )
 }
 
